@@ -1,3 +1,6 @@
+.app{
+    margin-bottom: 50px;
+}
 .explore{
     position: relative;
     background-image: url('./assets/cover.png');
@@ -39,4 +42,50 @@
 .btnExplore:hover{
     background-color: #FFFFFF;
     color: #3D5AA9;
+}
+
+.houseNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.houseNav h1{
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+.houseNav input{
+    border-radius: 13.086px;
+    border:2px solid #0000003a;
+    background: #F9F9FC;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    font-size: 1.1rem;
+    
+}
+.houseNav input::placeholder{
+    color: #00000063;
+    font-family: 'Inter', sans-serif;
+}
+.houseCards{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.moreHouse{
+    display: flex;
+    justify-content: flex-end;
+}
+.moreHouse a{
+    color: #1a1c1e8a;
+    font-size: 1.3rem;
 }
