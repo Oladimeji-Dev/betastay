@@ -1,0 +1,42 @@
+.filter{
+    width: 70%;
+    margin: -55px auto ;
+    background-color: #FFFFFF;
+    border-radius: 10px ;
+    box-shadow: 0px 7px 30px 0px rgba(26, 28, 30, 0.10);
+    padding: 20px;
+}
+.filter .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filterCard{
+    width: 15%;
+}
+.filterCard > p{
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+}
+.filterCardSelect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  2px solid black;
+}
+.filterCardSelect:hover{
+    cursor: pointer;
+}
+.btn-filter{
+    background-color: #3D5AA9;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    border: 2px solid #3D5AA9;
+    width: 150px;
+    height: 50px;
+}
+.btn-filter:hover{
+    color: #3D5AA9;
+    background-color: #FFFFFF;
+}
