@@ -1,0 +1,60 @@
+.navBar{
+    background-color: #3D5AA9;
+    color: #FFFFFF;
+}
+.navBar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBarBrand:hover{
+    cursor: pointer;
+}
+.navBarBrand h1{
+    font-weight: normal;
+}
+
+ul.navBarList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navBarList li{
+    opacity:50%;
+    padding: 10px 10px;
+    font-family: 'Lato', sans-serif;
+}
+.navBarList li:hover{
+    cursor: pointer;
+}
+.navBarList li.active{
+    opacity:100%;
+    border-bottom: 2px solid #FFFFFF;
+}
+.navBarActivity{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navBarActivity svg:hover{
+    cursor: pointer;
+}
+
+.login{
+    background-color: #FFFFFF;
+    color: #3D5AA9;
+    border: 1px solid #FFFFFF;
+    outline: #FFFFFF;
+    padding: 8px 0;
+    width: 120px;
+    font-size: 1.1rem;
+}
+.login:hover{
+    color: #FFFFFF;
+    background-color: #3D5AA9;
+    cursor: pointer;
+}
