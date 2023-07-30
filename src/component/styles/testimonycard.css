@@ -1,0 +1,9 @@
+.container.testimonyCard{
+    border: 2px solid #00174A;
+    border-radius: 10px;
+    width:800px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
