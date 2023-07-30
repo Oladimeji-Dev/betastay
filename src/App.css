@@ -1,0 +1,42 @@
+.explore{
+    position: relative;
+    background-image: url('./assets/cover.png');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 604px;
+    margin-bottom: 200px;
+}
+.exploreContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #00000071;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.exploreContent h1{
+    font-size: 3rem;
+    margin: 10px;
+}
+.exploreContent p{
+    font-size: 1.2rem;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.btnExplore{
+    background-color: #ffffff00;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border: 3px solid #FFFFFF;
+    font-size: 1.2rem;
+}
+.btnExplore:hover{
+    background-color: #FFFFFF;
+    color: #3D5AA9;
+}

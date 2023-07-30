@@ -4,7 +4,7 @@ import { ReactComponent as ArrowDown } from './../assets/arrowdown.svg'
 import { ReactComponent as Cart } from './../assets/cart.svg'
 const Navbar = () => {
   return (
-    <div className='navBar'>
+    <nav className='navBar'>
         <div className="container">
             <div className="navBarBrand">
                 <h1>BETASTAY</h1>
@@ -18,10 +18,10 @@ const Navbar = () => {
             <div className="navBarActivity">
                 <ArrowDown />
                 <Cart />
-                <button className="login">Login</button>
+                <button className=" btn btn-login">Login</button>
             </div>
         </div>
-    </div>
+    </nav>
   )
 }
 

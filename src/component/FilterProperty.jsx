@@ -26,6 +26,7 @@ const FilterProperty = () => {
                     <ArrowDown />
                 </div>
             </div>
+            
             <button className='btn btn-filter'>
                 Filter
             </button>

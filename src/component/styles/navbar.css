@@ -44,17 +44,15 @@ ul.navBarList{
     cursor: pointer;
 }
 
-.login{
+.btn-login{
     background-color: #FFFFFF;
     color: #3D5AA9;
-    border: 1px solid #FFFFFF;
-    outline: #FFFFFF;
+    font-size: 1.1rem;
     padding: 8px 0;
     width: 120px;
-    font-size: 1.1rem;
+    border: 1px solid white;
 }
-.login:hover{
+.btn-login:hover{
     color: #FFFFFF;
     background-color: #3D5AA9;
-    cursor: pointer;
 }
