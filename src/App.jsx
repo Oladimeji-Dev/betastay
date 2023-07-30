@@ -3,6 +3,10 @@ import Navbar from './component/Navbar'
 import FilterProperty from './component/FilterProperty'
 import HouseCard from './component/HouseCard'
 import houses from './data/houses.json'
+import imageVideo from './assets/imagevideo.png'
+import TestimonyCard from './component/TestimonyCard'
+import { ReactComponent as LeftArrow } from './assets/left-arrow.svg'
+import { ReactComponent as RightArrow } from "./assets/right-arrow.svg"
 function App() {
   return (
     <div className='app'>
@@ -37,6 +41,23 @@ function App() {
           <a href="#">More {">"}</a>
         </span>
       </section>
+      <section className="container videoImage">
+          <img src={imageVideo} alt="" />
+      </section>
+      <section className='container testimonials'>
+          <h1 className='testHeader'>TESTIMONIALS</h1>
+          <TestimonyCard />
+
+          <nav className='testNav'>
+            <LeftArrow />
+            <RightArrow />
+          </nav>
+      </section>
+      <footer className='appFooter'>
+      {/* <div className="navBarBrand">
+          <h1>BETASTAY</h1>
+      </div> */}
+      </footer>
     </div>
   )
 }

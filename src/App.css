@@ -75,6 +75,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 a{
     text-decoration: none;
@@ -84,8 +85,35 @@ a{
 .moreHouse{
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 50px;
 }
 .moreHouse a{
     color: #1a1c1e8a;
     font-size: 1.3rem;
+}
+.videoImage{
+    margin : 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.videoImage:hover{
+    cursor: pointer;
+}
+.testimonials{
+    margin-top: 40px;
+}
+h1.testHeader{
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+.testNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.testNav svg:hover{
+    cursor: pointer;
 }
