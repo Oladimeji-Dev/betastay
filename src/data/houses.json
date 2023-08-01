@@ -1,37 +1,37 @@
 [
     { 
-        "image" : "./src/assets/duplex.png",
+        "image" : "./public/assets/duplex.png",
         "alt": "duplex-image",
         "title":"Duplex",
         "price":"₦30m"
     },
     { 
-        "image" : "./src/assets/bungalow.png",
+        "image" : "./public/assets/bungalow.png",
         "alt": "bungalow-image",
         "title":"Bungalow",
         "price":"₦2m/yr"
     },
     { 
-        "image" : "./src/assets/mansion.png",
+        "image" : "./public/assets/mansion.png",
         "alt": "mansion-image",
         "title":"Mansion",
         "price":"₦200m"
     },
     { 
-        "image" : "./src/assets/mansion.png",
+        "image" : "./public/assets/mansion.png",
         "alt": "mansion-image",
         "title":"Mansion",
         "price":"₦150m"
     },
     { 
-        "image" : "./src/assets/apartment.png",
+        "image" : "./public/assets/apartment.png",
         "alt": "apartment-image",
         "title":"Apartment",
         "price":"₦500k/yr"
         
     },
     { 
-        "image" : "./src/assets/duplex2.png",
+        "image" : "./public/assets/duplex2.png",
         "alt": "second-duplex-image",
         "title":"Duplex",
         "price":"₦25m"
