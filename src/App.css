@@ -1,6 +1,6 @@
-.app{
+/* .app{
     margin-bottom: 50px;
-}
+} */
 .explore{
     position: relative;
     background-image: url('./assets/cover.png');
@@ -112,8 +112,37 @@ h1.testHeader{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .testNav svg:hover{
     cursor: pointer;
+}
+footer.appFooter{
+    background-color: #3D5AA9;
+    color: #FFFFFF;
+}
+
+.appFooterNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.appFooterNav .navBarBrand h1{
+    font-size: 2.3rem;
+}
+ul.footerNav{
+    list-style: none;
+}
+ul.footerNav li{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .exploreContent p{
+        width: 80%;
+    }
+    .videoImage img{
+        max-width:100%
+    }
 }

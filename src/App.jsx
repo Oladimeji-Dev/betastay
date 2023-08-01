@@ -54,9 +54,29 @@ function App() {
           </nav>
       </section>
       <footer className='appFooter'>
-      {/* <div className="navBarBrand">
-          <h1>BETASTAY</h1>
-      </div> */}
+        <nav className='container appFooterNav'>
+          <div className="navBarBrand">
+              <h1>BETASTAY</h1>
+          </div>
+          <ul className="footerNav">
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Services</li>
+            <li>Restaurants</li>
+          </ul>
+          <ul className="footerNav">
+            <li>News</li>
+            <li>Reservation</li>
+            <li>Gallery</li>
+            <li>FAQs</li>
+          </ul>
+          <ul className="footerNav">
+            <li>2715 Ash Dr. San Jose, South Dakota 83475</li>
+            <li>(603) 555-0123</li>
+            <li>kenzi.lawson@example.com</li>
+            <li>FAQs</li>
+          </ul>
+        </nav>
       </footer>
     </div>
   )
