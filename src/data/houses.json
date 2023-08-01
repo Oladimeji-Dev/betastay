@@ -1,37 +1,37 @@
 [
     { 
-        "image" : "./public/assets/duplex.png",
+        "image" : "https://res.cloudinary.com/dnss0pnwn/image/upload/v1690916918/betastay/duplex_c11ijp.png",
         "alt": "duplex-image",
         "title":"Duplex",
         "price":"₦30m"
     },
     { 
-        "image" : "./public/assets/bungalow.png",
+        "image" : "https://res.cloudinary.com/dnss0pnwn/image/upload/v1690916918/betastay/bungalow_s7bdso.png",
         "alt": "bungalow-image",
         "title":"Bungalow",
         "price":"₦2m/yr"
     },
     { 
-        "image" : "./public/assets/mansion.png",
+        "image" : "https://res.cloudinary.com/dnss0pnwn/image/upload/v1690916918/betastay/mansion_kto0py.png",
         "alt": "mansion-image",
         "title":"Mansion",
         "price":"₦200m"
     },
     { 
-        "image" : "./public/assets/mansion.png",
+        "image" : "https://res.cloudinary.com/dnss0pnwn/image/upload/v1690916918/betastay/mansion2_cdx7zv.png",
         "alt": "mansion-image",
         "title":"Mansion",
         "price":"₦150m"
     },
     { 
-        "image" : "./public/assets/apartment.png",
+        "image" : "https://res.cloudinary.com/dnss0pnwn/image/upload/v1690916915/betastay/Apartment_ticfvj.png",
         "alt": "apartment-image",
         "title":"Apartment",
         "price":"₦500k/yr"
         
     },
     { 
-        "image" : "./public/assets/duplex2.png",
+        "image" : "https://res.cloudinary.com/dnss0pnwn/image/upload/v1690916918/betastay/duplex2_zgi6m9.png",
         "alt": "second-duplex-image",
         "title":"Duplex",
         "price":"₦25m"
