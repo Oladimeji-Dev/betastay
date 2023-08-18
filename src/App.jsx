@@ -7,6 +7,7 @@ import imageVideo from './assets/imagevideo.png'
 import TestimonyCard from './component/TestimonyCard'
 import { ReactComponent as LeftArrow } from './assets/left-arrow.svg'
 import { ReactComponent as RightArrow } from "./assets/right-arrow.svg"
+import { ReactComponent as ArrowDown } from './assets/arrow-down-2.svg'
 function App() {
   return (
     <div className='app'>
@@ -22,7 +23,11 @@ function App() {
       <section className=' container house'>
         <nav className='houseNav'>
           <h1>HOUSE TYPES</h1>
-          <input type="text" placeholder='Search here ....'/>
+          {/* <input type="text" placeholder='Search here ....'/> */}
+          <div className="houseNavFilter">
+            <p>FILTER BY</p>
+            <ArrowDown />
+          </div>
         </nav>
         <div className="houseCards">
           {
@@ -41,8 +46,11 @@ function App() {
           <a href="#">More {">"}</a>
         </span>
       </section>
-      <section className="container videoImage">
+      <section className="container ">
+        <h1 className='videoImageHead'>VIDEO REVIEW</h1>
+        <div className='videoImage'>
           <img src={imageVideo} alt="" />
+        </div>
       </section>
       <section className='container testimonials'>
           <h1 className='testHeader'>TESTIMONIALS</h1>

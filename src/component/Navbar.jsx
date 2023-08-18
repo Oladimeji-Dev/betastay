@@ -16,7 +16,6 @@ const Navbar = () => {
                 <li>Contact Us</li>
             </ul>
             <div className="navBarActivity">
-                <ArrowDown />
                 <Cart />
                 <button className=" btn btn-login">Login</button>
             </div>

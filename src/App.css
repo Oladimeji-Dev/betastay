@@ -70,6 +70,21 @@
     color: #00000063;
     font-family: 'Inter', sans-serif;
 }
+
+.houseNav .houseNavFilter{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #000000;
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+.houseNavFilter p{
+    margin: 0;
+}
+.houseNavFilter:hover{
+    cursor: pointer;
+}
 .houseCards{
     display: flex;
     align-items: flex-start;
@@ -90,6 +105,11 @@ a{
 .moreHouse a{
     color: #1a1c1e8a;
     font-size: 1.3rem;
+}
+h1.videoImageHead{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: normal;
 }
 .videoImage{
     margin : 50px 0;
