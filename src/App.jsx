@@ -42,9 +42,6 @@ function App() {
 
           }
         </div>
-        <span className='moreHouse'>
-          <a href="#">More {">"}</a>
-        </span>
       </section>
       <section className="container ">
         <h1 className='videoImageHead'>VIDEO REVIEW</h1>
