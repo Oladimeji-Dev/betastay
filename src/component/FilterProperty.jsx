@@ -28,7 +28,7 @@ const FilterProperty = () => {
             </div>
             
             <button className='btn btn-filter'>
-                Filter
+                Search
             </button>
         </div>
     </section>
